@@ -1,5 +1,5 @@
 const intervals = 7
-const intervalTime = 1000
+const reloadTime = 7000
 
 ;(function() {
   const progressBar = document.getElementById('load-progress')
@@ -13,5 +13,5 @@ const intervalTime = 1000
     }
 
     progressBar.style.width = `${i * (100 / intervals)}%`
-  }, intervalTime)
+  }, reloadTime / intervals)
 })()
