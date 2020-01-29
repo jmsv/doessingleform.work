@@ -1,0 +1,19 @@
+.progress-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.progress-outer {
+  height: 0.5rem;
+  width: 100%;
+  position: relative;
+}
+
+.progress-inner {
+  width: 0;
+  height: 100%;
+  transition: width 500ms ease;
+  background: white;
+}
