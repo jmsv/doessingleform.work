@@ -11,3 +11,9 @@ const intervalTime = 1000
     progressBar.style.width = `${i * (100 / intervals)}%`
   }, intervalTime)
 })()
+
+setTimeout(() => {
+  if (Math.random() > 0.94) {
+    window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+  }
+}, 4000)
